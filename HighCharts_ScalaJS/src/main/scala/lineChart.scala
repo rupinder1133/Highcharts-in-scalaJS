@@ -40,7 +40,6 @@ object lineChart extends JSApp{
     }
 
     jQuery("#container").highcharts(config)
-//    var ss:js.Array[js.UndefOr[Double]]= js.Array[js.UndefOr[Double]](js.Array[Double](1,2))
-//    dom.console.log( ss )
+
   }
 }
