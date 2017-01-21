@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HighCharts-ScalaJS demo</title>
+
+    <!-- Include jQuery -->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/2.1.1/jquery.js"></script>
+    <!-- Include HighCharts -->
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+
+</head>
+<body>
+
+    <div id="container">
+    </div>
+
+
+
+    <!-- Include Scala.js compiled code -->
+    <script src="target/scala-2.11/highcharts_scalajs-fastopt.js"></script>
+    <!-- Include JavaScript dependencies -->
+    <script src="target/scala-2.11/highcharts_scalajs-jsdeps.js"></script>
+    <!-- Run main method -->
+    <script type="text/javascript">
+          lineChart().main();
+    </script>
+</body>
+</html>

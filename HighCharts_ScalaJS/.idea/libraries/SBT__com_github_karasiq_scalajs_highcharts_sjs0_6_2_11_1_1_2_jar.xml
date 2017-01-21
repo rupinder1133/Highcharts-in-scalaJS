@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.github.karasiq:scalajs-highcharts_sjs0.6_2.11:1.1.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.karasiq/scalajs-highcharts_sjs0.6_2.11/jars/scalajs-highcharts_sjs0.6_2.11-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.karasiq/scalajs-highcharts_sjs0.6_2.11/srcs/scalajs-highcharts_sjs0.6_2.11-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

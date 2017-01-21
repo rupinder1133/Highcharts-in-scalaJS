@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="highcharts_scalajs_sjs0.6_2.11"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20170120171758"/>
+	<dependencies>
+		<module organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11">
+			<revision name="0.9.1" status="release" pubdate="20161029210758" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="3">
+				<license name="BSD 3-Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3109" time="0" location="/Users/rupindersingh/.ivy2/cache/be.doeraene/scalajs-jquery_sjs0.6_2.11/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/be/doeraene/scalajs-jquery_sjs0.6_2.11/0.9.1/scalajs-jquery_sjs0.6_2.11-0.9.1.pom"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0"/>
+				<caller organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="scalajs-jquery_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="58064" time="0" location="/Users/rupindersingh/.ivy2/cache/be.doeraene/scalajs-jquery_sjs0.6_2.11/jars/scalajs-jquery_sjs0.6_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/be/doeraene/scalajs-jquery_sjs0.6_2.11/0.9.1/scalajs-jquery_sjs0.6_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.9.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="-1">
+				<evicted-by rev="0.9.1"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0"/>
+				<caller organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11">
+			<revision name="0.9.1" status="release" pubdate="20160613021815" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2678" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.pom"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.9.1"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="2048170" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11">
+			<revision name="1.1.2" status="release" pubdate="20160305055137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Karasiq/scalajs-highcharts" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/rupindersingh/.ivy2/cache/com.github.karasiq/scalajs-highcharts_sjs0.6_2.11/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/karasiq/scalajs-highcharts_sjs0.6_2.11/1.1.2/scalajs-highcharts_sjs0.6_2.11-1.1.2.pom"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-highcharts_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="10704755" time="0" location="/Users/rupindersingh/.ivy2/cache/com.github.karasiq/scalajs-highcharts_sjs0.6_2.11/jars/scalajs-highcharts_sjs0.6_2.11-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/karasiq/scalajs-highcharts_sjs0.6_2.11/1.1.2/scalajs-highcharts_sjs0.6_2.11-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.14" status="release" pubdate="20161221025409" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.14/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="1">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.14/scalajs-library_2.11-0.6.14.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.9.1"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="0.6.14" rev-constraint-default="0.6.14" rev-constraint-dynamic="0.6.14" callerrev="1.0"/>
+				<caller organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.7" rev-constraint-default="0.6.7" rev-constraint-dynamic="0.6.7" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="6739449" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.14/scalajs-library_2.11-0.6.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.14"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.13" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.14"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.14"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.9.1"/>
+				<caller organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.7" rev-constraint-default="0.6.7" rev-constraint-dynamic="0.6.7" callerrev="1.1.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150623014702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.9.1"/>
+				<caller organisation="be.doeraene" name="scalajs-jquery_sjs0.6_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.9.1"/>
+				<caller organisation="default" name="highcharts_scalajs_sjs0.6_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.6.14"/>
+				<caller organisation="com.github.karasiq" name="scalajs-highcharts_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/rupindersingh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
