@@ -33,11 +33,7 @@ object lineChart extends JSApp{
       // Series
       override val series: SeriesCfg = js.Array[AnySeries](
         SeriesLine(name = "Test Series",
-                    data = js.Array(
-                      js.Array(0, 1),
-                      js.Array(1, 2),
-                      js.Array(2, 8)
-                    ),
+                    data = js.Array(1,2,3,7,2,9),
                     animation = true
                   )
       )
