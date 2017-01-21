@@ -2,19 +2,12 @@
   * Created by rupindersingh on 1/20/17.
   */
 
-import org.scalajs.dom
-import dom.document
-
-import scala.scalajs.js.annotation.JSExport
 import scalajs.js
-import js.{JSApp, UndefOr}
+import js.JSApp
 import org.scalajs.jquery.jQuery
 import com.highcharts.HighchartsUtils._
 import com.highcharts.HighchartsAliases._
 import com.highcharts.config._
-
-import scala.collection.mutable
-import js.JSConverters._
 
 object lineChart extends JSApp{
   def main(): Unit ={
@@ -25,7 +18,7 @@ object lineChart extends JSApp{
       override val title: Cfg[Title] = Title(text = "Demo chart")
 
       // X Axis settings
-//      override val xAxis: Cfg[XAxis] = XAxis(categories = js.Array("1","2","3","4","5","6","7"))
+      override val xAxis: Cfg[XAxis] = XAxis(categories = js.Array("1","2","3","4","5","6","7"))
 
       // Y Axis settings
       override val yAxis: Cfg[YAxis] = YAxis(title = YAxisTitle(text = "Values"))
@@ -33,7 +26,7 @@ object lineChart extends JSApp{
       // Series
       override val series: SeriesCfg = js.Array[AnySeries](
         SeriesLine(name = "Test Series",
-                    data = js.Array(1,2,3,7,2,9),
+                    data = js.Array(1,2,3,7,2,9,3),
                     animation = true
                   )
       )
