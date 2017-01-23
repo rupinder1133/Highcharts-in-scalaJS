@@ -4,7 +4,7 @@
 		module="highcharts_scalajs-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170120164935"
+		publication="20170123113751"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

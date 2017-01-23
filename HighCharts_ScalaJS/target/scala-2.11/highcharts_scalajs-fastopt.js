@@ -1944,28 +1944,64 @@ $c_LlineChart$.prototype.init___ = (function() {
   return this
 });
 $c_LlineChart$.prototype.main__V = (function() {
+  var elem = $m_s_util_Random$();
+  var elem$1 = null;
+  elem$1 = elem;
   var $this = new $c_Lcom_highcharts_config_HighchartsConfig();
   $this.chart = null;
   $this.title = null;
   $this.yAxis = null;
   $this.series = null;
-  var this$43 = $m_Lcom_highcharts_HighchartsUtils$();
+  var this$44 = $m_Lcom_highcharts_HighchartsUtils$();
   var obj = $m_Lcom_highcharts_config_Chart$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_Chart((void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "line", (void 0), (void 0));
-  $this.chart = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$43, obj);
-  var this$53 = $m_Lcom_highcharts_HighchartsUtils$();
+  $this.chart = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$44, obj);
+  var this$54 = $m_Lcom_highcharts_HighchartsUtils$();
   var obj$1 = $m_Lcom_highcharts_config_Title$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_Title((void 0), (void 0), (void 0), (void 0), "Demo chart", (void 0), (void 0), (void 0), (void 0));
-  $this.title = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$53, obj$1);
-  var this$127 = $m_Lcom_highcharts_HighchartsUtils$();
-  var this$63 = $m_Lcom_highcharts_HighchartsUtils$();
+  $this.title = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$54, obj$1);
+  var this$128 = $m_Lcom_highcharts_HighchartsUtils$();
+  var this$64 = $m_Lcom_highcharts_HighchartsUtils$();
   var obj$2 = $m_Lcom_highcharts_config_YAxisTitle$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_YAxisTitle((void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "Values", (void 0), (void 0));
-  var x$61 = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$63, obj$2);
+  var x$61 = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$64, obj$2);
   var obj$3 = $m_Lcom_highcharts_config_YAxis$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_YAxis((void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), x$61, (void 0), (void 0), (void 0));
-  $this.yAxis = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$127, obj$3);
-  var this$189 = $m_Lcom_highcharts_HighchartsAliases$();
-  var obj$4 = [1, 2, 3, 7, 2, 9];
-  var a = $m_Lcom_highcharts_config_SeriesLine$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__T__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_SeriesLine((void 0), true, (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), obj$4, (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "Test Series", (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "line", (void 0), (void 0), (void 0), (void 0), (void 0), (void 0));
-  var arr = [a];
-  $this.series = $s_Lcom_highcharts_AnySeriesDef$class__anySeriesArrayConvert__Lcom_highcharts_AnySeriesDef__sjs_js_Array__sjs_js_UndefOr(this$189, arr);
+  $this.yAxis = $s_Lcom_highcharts_HighchartsImplicits$class__highchartsCfg__Lcom_highcharts_HighchartsImplicits__sjs_js_Object__sjs_js_UndefOr(this$128, obj$3);
+  var this$265 = $m_Lcom_highcharts_HighchartsAliases$();
+  var this$131 = $as_s_util_Random$(elem$1);
+  var value = this$131.self$1.nextInt__I__I(100);
+  var a = [0, value];
+  var this$138 = $as_s_util_Random$(elem$1);
+  var value$1 = this$138.self$1.nextInt__I__I(100);
+  var a$1 = [1, value$1];
+  var this$145 = $as_s_util_Random$(elem$1);
+  var value$2 = this$145.self$1.nextInt__I__I(100);
+  var a$2 = [2, value$2];
+  var this$152 = $as_s_util_Random$(elem$1);
+  var value$3 = this$152.self$1.nextInt__I__I(100);
+  var a$3 = [3, value$3];
+  var this$159 = $as_s_util_Random$(elem$1);
+  var value$4 = this$159.self$1.nextInt__I__I(100);
+  var a$4 = [4, value$4];
+  var this$166 = $as_s_util_Random$(elem$1);
+  var value$5 = this$166.self$1.nextInt__I__I(100);
+  var a$5 = [5, value$5];
+  var this$173 = $as_s_util_Random$(elem$1);
+  var value$6 = this$173.self$1.nextInt__I__I(100);
+  var a$6 = [6, value$6];
+  var this$180 = $as_s_util_Random$(elem$1);
+  var value$7 = this$180.self$1.nextInt__I__I(100);
+  var a$7 = [7, value$7];
+  var this$187 = $as_s_util_Random$(elem$1);
+  var value$8 = this$187.self$1.nextInt__I__I(100);
+  var a$8 = [8, value$8];
+  var this$194 = $as_s_util_Random$(elem$1);
+  var value$9 = this$194.self$1.nextInt__I__I(100);
+  var a$9 = [9, value$9];
+  var this$201 = $as_s_util_Random$(elem$1);
+  var value$10 = this$201.self$1.nextInt__I__I(100);
+  var a$10 = [10, value$10];
+  var a$11 = [a, a$1, a$2, a$3, a$4, a$5, a$6, a$7, a$8, a$9, a$10];
+  var a$12 = $m_Lcom_highcharts_config_SeriesLine$().apply__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__T__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__sjs_js_UndefOr__Lcom_highcharts_config_SeriesLine((void 0), true, (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), a$11, (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "Test Series", (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), (void 0), "line", (void 0), (void 0), (void 0), (void 0), (void 0), (void 0));
+  var arr = [a$12];
+  $this.series = $s_Lcom_highcharts_AnySeriesDef$class__anySeriesArrayConvert__Lcom_highcharts_AnySeriesDef__sjs_js_Array__sjs_js_UndefOr(this$265, arr);
   var jsx$1 = $m_Lcom_highcharts_HighchartsUtils$HighchartsJQuery$();
   var jq = (0, $m_Lorg_scalajs_jquery_package$().jQuery$1)("#container");
   jsx$1.highcharts$extension1__Lorg_scalajs_jquery_JQuery__Lcom_highcharts_CleanJsObject__Lorg_scalajs_jquery_JQuery(jq, $m_Lcom_highcharts_CleanJsObject$().apply__sjs_js_Object__sjs_js_Object($this))
@@ -2083,6 +2119,78 @@ function $isArrayOf_jl_Throwable(obj, depth) {
 function $asArrayOf_jl_Throwable(obj, depth) {
   return (($isArrayOf_jl_Throwable(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Throwable;", depth))
 }
+/** @constructor */
+function $c_ju_Random() {
+  $c_O.call(this);
+  this.seedHi$1 = 0;
+  this.seedLo$1 = 0;
+  this.nextNextGaussian$1 = 0.0;
+  this.haveNextNextGaussian$1 = false
+}
+$c_ju_Random.prototype = new $h_O();
+$c_ju_Random.prototype.constructor = $c_ju_Random;
+/** @constructor */
+function $h_ju_Random() {
+  /*<skip>*/
+}
+$h_ju_Random.prototype = $c_ju_Random.prototype;
+$c_ju_Random.prototype.init___ = (function() {
+  $c_ju_Random.prototype.init___J.call(this, $m_ju_Random$().java$util$Random$$randomSeed__J());
+  return this
+});
+$c_ju_Random.prototype.init___J = (function(seed_in) {
+  this.haveNextNextGaussian$1 = false;
+  this.setSeed__J__V(seed_in);
+  return this
+});
+$c_ju_Random.prototype.nextInt__I__I = (function(n) {
+  if ((n <= 0)) {
+    throw new $c_jl_IllegalArgumentException().init___T("n must be positive")
+  } else {
+    return (((n & ((-n) | 0)) === n) ? (this.next__I__I(31) >> $clz32(n)) : this.loop$1__p1__I__I(n))
+  }
+});
+$c_ju_Random.prototype.next__I__I = (function(bits) {
+  var oldSeedHi = this.seedHi$1;
+  var oldSeedLo = this.seedLo$1;
+  var loProd = (11 + (15525485 * oldSeedLo));
+  var hiProd = ((1502 * oldSeedLo) + (15525485 * oldSeedHi));
+  var x = (loProd / 16777216);
+  var newSeedHi = (16777215 & (($uI((x | 0)) + (16777215 & $uI((hiProd | 0)))) | 0));
+  var newSeedLo = (16777215 & $uI((loProd | 0)));
+  this.seedHi$1 = newSeedHi;
+  this.seedLo$1 = newSeedLo;
+  var result32 = ((newSeedHi << 8) | (newSeedLo >> 16));
+  return ((result32 >>> ((32 - bits) | 0)) | 0)
+});
+$c_ju_Random.prototype.loop$1__p1__I__I = (function(n$1) {
+  _loop: while (true) {
+    var bits = this.next__I__I(31);
+    var value = ((bits % n$1) | 0);
+    if ((((((bits - value) | 0) + (((-1) + n$1) | 0)) | 0) < 0)) {
+      continue _loop
+    } else {
+      return value
+    }
+  }
+});
+$c_ju_Random.prototype.setSeed__J__V = (function(seed_in) {
+  var lo = ((-554899859) ^ seed_in.lo$2);
+  var hi = (5 ^ seed_in.hi$2);
+  var hi$1 = (65535 & hi);
+  var lo$1 = (((lo >>> 24) | 0) | (hi$1 << 8));
+  this.seedHi$1 = lo$1;
+  this.seedLo$1 = (16777215 & lo);
+  this.haveNextNextGaussian$1 = false
+});
+var $d_ju_Random = new $TypeData().initClass({
+  ju_Random: 0
+}, false, "java.util.Random", {
+  ju_Random: 1,
+  O: 1,
+  Ljava_io_Serializable: 1
+});
+$c_ju_Random.prototype.$classData = $d_ju_Random;
 /** @constructor */
 function $c_s_util_hashing_MurmurHash3$() {
   $c_s_util_hashing_MurmurHash3.call(this);
@@ -4025,6 +4133,61 @@ function $h_jl_Exception() {
   /*<skip>*/
 }
 $h_jl_Exception.prototype = $c_jl_Exception.prototype;
+/** @constructor */
+function $c_ju_Random$() {
+  $c_O.call(this)
+}
+$c_ju_Random$.prototype = new $h_O();
+$c_ju_Random$.prototype.constructor = $c_ju_Random$;
+/** @constructor */
+function $h_ju_Random$() {
+  /*<skip>*/
+}
+$h_ju_Random$.prototype = $c_ju_Random$.prototype;
+$c_ju_Random$.prototype.init___ = (function() {
+  return this
+});
+$c_ju_Random$.prototype.java$util$Random$$randomSeed__J = (function() {
+  var value = this.randomInt__p1__I();
+  var value$1 = this.randomInt__p1__I();
+  return new $c_sjsr_RuntimeLong().init___I__I(value$1, value)
+});
+$c_ju_Random$.prototype.randomInt__p1__I = (function() {
+  var a = (4.294967296E9 * $uD($g.Math.random()));
+  return $doubleToInt(((-2.147483648E9) + $uD($g.Math.floor(a))))
+});
+var $d_ju_Random$ = new $TypeData().initClass({
+  ju_Random$: 0
+}, false, "java.util.Random$", {
+  ju_Random$: 1,
+  O: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_ju_Random$.prototype.$classData = $d_ju_Random$;
+var $n_ju_Random$ = (void 0);
+function $m_ju_Random$() {
+  if ((!$n_ju_Random$)) {
+    $n_ju_Random$ = new $c_ju_Random$().init___()
+  };
+  return $n_ju_Random$
+}
+/** @constructor */
+function $c_s_util_Random() {
+  $c_O.call(this);
+  this.self$1 = null
+}
+$c_s_util_Random.prototype = new $h_O();
+$c_s_util_Random.prototype.constructor = $c_s_util_Random;
+/** @constructor */
+function $h_s_util_Random() {
+  /*<skip>*/
+}
+$h_s_util_Random.prototype = $c_s_util_Random.prototype;
+$c_s_util_Random.prototype.init___ju_Random = (function(self) {
+  this.self$1 = self;
+  return this
+});
 /** @constructor */
 function $c_sjsr_RuntimeLong$() {
   $c_O.call(this);
@@ -6257,6 +6420,50 @@ var $d_jl_Short = new $TypeData().initClass({
   return $isShort(x)
 }));
 /** @constructor */
+function $c_s_util_Random$() {
+  $c_s_util_Random.call(this)
+}
+$c_s_util_Random$.prototype = new $h_s_util_Random();
+$c_s_util_Random$.prototype.constructor = $c_s_util_Random$;
+/** @constructor */
+function $h_s_util_Random$() {
+  /*<skip>*/
+}
+$h_s_util_Random$.prototype = $c_s_util_Random$.prototype;
+$c_s_util_Random$.prototype.init___ = (function() {
+  $c_s_util_Random.prototype.init___ju_Random.call(this, new $c_ju_Random().init___());
+  return this
+});
+function $is_s_util_Random$(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_util_Random$)))
+}
+function $as_s_util_Random$(obj) {
+  return (($is_s_util_Random$(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Random$"))
+}
+function $isArrayOf_s_util_Random$(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Random$)))
+}
+function $asArrayOf_s_util_Random$(obj, depth) {
+  return (($isArrayOf_s_util_Random$(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Random$;", depth))
+}
+var $d_s_util_Random$ = new $TypeData().initClass({
+  s_util_Random$: 0
+}, false, "scala.util.Random$", {
+  s_util_Random$: 1,
+  s_util_Random: 1,
+  O: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_util_Random$.prototype.$classData = $d_s_util_Random$;
+var $n_s_util_Random$ = (void 0);
+function $m_s_util_Random$() {
+  if ((!$n_s_util_Random$)) {
+    $n_s_util_Random$ = new $c_s_util_Random$().init___()
+  };
+  return $n_s_util_Random$
+}
+/** @constructor */
 function $c_sjsr_RuntimeLong() {
   $c_jl_Number.call(this);
   this.lo$2 = 0;
@@ -6492,6 +6699,32 @@ var $d_jl_ClassCastException = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_jl_ClassCastException.prototype.$classData = $d_jl_ClassCastException;
+/** @constructor */
+function $c_jl_IllegalArgumentException() {
+  $c_jl_RuntimeException.call(this)
+}
+$c_jl_IllegalArgumentException.prototype = new $h_jl_RuntimeException();
+$c_jl_IllegalArgumentException.prototype.constructor = $c_jl_IllegalArgumentException;
+/** @constructor */
+function $h_jl_IllegalArgumentException() {
+  /*<skip>*/
+}
+$h_jl_IllegalArgumentException.prototype = $c_jl_IllegalArgumentException.prototype;
+$c_jl_IllegalArgumentException.prototype.init___T = (function(s) {
+  $c_jl_Throwable.prototype.init___T__jl_Throwable.call(this, s, null);
+  return this
+});
+var $d_jl_IllegalArgumentException = new $TypeData().initClass({
+  jl_IllegalArgumentException: 0
+}, false, "java.lang.IllegalArgumentException", {
+  jl_IllegalArgumentException: 1,
+  jl_RuntimeException: 1,
+  jl_Exception: 1,
+  jl_Throwable: 1,
+  O: 1,
+  Ljava_io_Serializable: 1
+});
+$c_jl_IllegalArgumentException.prototype.$classData = $d_jl_IllegalArgumentException;
 /** @constructor */
 function $c_jl_IndexOutOfBoundsException() {
   $c_jl_RuntimeException.call(this)

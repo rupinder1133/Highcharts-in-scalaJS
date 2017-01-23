@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/}highcharts_scalajs...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/}highcharts_scalajs...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#highcharts_scalajs_sjs0.6_2.11;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -1711,20 +1711,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 473ms :: artifacts dl 14ms[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 compile produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 runtime produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 test produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 provided produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 optional produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 compile-internal produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 runtime-internal produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 test-internal produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 plugin produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 sources produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 docs produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 pom produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 scala-tool produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 phantom-js-jetty produced in /Users/rupindersingh/IdeaProjects/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-phantom-js-jetty.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (473ms resolve - 14ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 490ms :: artifacts dl 10ms[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 compile produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 runtime produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 test produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 provided produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 optional produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 compile-internal produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 runtime-internal produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 test-internal produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 plugin produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 sources produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 docs produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 pom produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 scala-tool produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#highcharts_scalajs_sjs0.6_2.11;1.0 phantom-js-jetty produced in /Users/rupindersingh/GitHub/Highcharts-in-scalaJS/HighCharts_ScalaJS/target/resolution-cache/reports/default-highcharts_scalajs_sjs0.6_2.11-phantom-js-jetty.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (490ms resolve - 10ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
